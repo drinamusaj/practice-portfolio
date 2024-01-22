@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animationData from '../assets/images/Animation1.json';
+import animationData from '../assets/images/Animation2.json';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -25,7 +25,7 @@ const Banner = () => {
 
     return (
         <>
-        <div className="container">
+        <div className="container mb-5">
             <div className="row">
                 <div className="col-xs-12 col-md-6 col-xl-7 my-auto">
                     <h3>A designer who</h3>
@@ -36,32 +36,32 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-          <div className="container">
-          <h3>Clients</h3>
+          <div className="container ">
+          <h4 className="clients-header">Clients</h4>
           <Slider {...settings}>
             <div>
-             <img src={vodafone} alt="vodafone" width={150}/>
+             <img src={vodafone} alt="vodafone" width={150} className="mt-5"/>
             </div>
             <div>
-            <img src={tumo} alt="tumo" width={150}/>
+            <img src={tumo} alt="tumo" width={150} className="mt-4"/>
             </div>
             <div>
-            <img src={shokohaus} alt="shokohaus" width={150}/>
+            <img src={shokohaus} alt="shokohaus" width={110}/>
             </div>
             <div>
-            <img src={miss} alt="miss" width={150}/>
+            <img src={miss} alt="miss" width={130} className="mt-4"/>
             </div>
             <div>
-            <img src={orange} alt="orange" width={150}/>
+            <img src={orange} alt="orange" width={100}/>
             </div>
             <div>
-            <img src={hc} alt="hc" width={150}/>
+            <img src={hc} alt="hc" width={70}/>
             </div>
             <div>
-            <img src={funfood} alt="funfood" width={150}/>
+            <img src={funfood} alt="funfood" width={100}/>
             </div>
             <div>
-            <img src={b52} alt="b52" width={150}/>
+            <img src={b52} alt="b52" width={110}/>
             </div>
           </Slider>
         </div>

@@ -32,7 +32,7 @@
     overflow-x: hidden;
     position: relative;
     background-color: #121212 !important;
-    color: #fff !important;
+    color: #ececec !important;
     font-family: 'Poppins', sans-serif !important;
   }
   
@@ -51,11 +51,6 @@
     text-decoration: none;
   }
   
-  
-  button {
-    border: 0;
-    background-color: transparent;
-  }
   
   input:focus, textarea:focus, select:focus {
     outline: none;
@@ -83,24 +78,29 @@
 }
 
 .robot-animation{
-  width: 500px;
+  width: 400px;
 }
 
-h2 {
-  font-size: 60px;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
+.clients-header{
+  margin-bottom: 35px;
 }
-h4 {
-  font-size: 40px;
-  background-color: red;
-  display: flex;
+
+.about-text{
+  margin-top: 100px;
+  width: 695px;
+  line-height: 170%;
+}
+
+.connect-button{
+  border-radius: 30px;
+  border: 0px;
+  background: linear-gradient(107deg, #C961DE 24.43%, #2954A3 68.95%);
+  box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
+  width: 200px;
+  height: 45px;
   justify-content: center;
-  border-radius: 5px;
-  padding: 150px 0;
-  margin: 0px auto;
-  font-family: sans-serif;
-  margin: 0 50px;
+  align-items: center;
+  color: #FFF;
+  font-size: 15px;
 }
 
