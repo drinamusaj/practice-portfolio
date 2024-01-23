@@ -36,7 +36,7 @@
     font-family: 'Poppins', sans-serif !important;
   }
   
-  p, button, ul {
+  button, ul {
     margin: 0;
     padding: 0;
     line-height: normal;
@@ -86,9 +86,9 @@
 }
 
 .about-text{
-  margin-top: 100px;
   width: 695px;
   line-height: 170%;
+  margin-top: 100px;
 }
 
 .connect-button{
@@ -104,3 +104,83 @@
   font-size: 15px;
 }
 
+  .skills-icons{
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .image-container{
+    border-radius: 16px;
+    background: lightgray -111.618px -35.5px / 121.42% 114.49% no-repeat;
+  }
+
+  .work-container{
+    margin-top: 70px;
+  }
+
+  .branding-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: 3.64px;
+    text-transform: uppercase;
+    margin-top: 60px;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .more-button{
+    border-radius: 30px;
+    border: 3px linear-gradient(107deg, #C961DE 24.43%, #2954A3 68.95%);
+    background: #121212;
+    box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+  }
+
+  .more-button:hover {
+    background: linear-gradient(107deg, #C961DE 24.43%, #2954A3 68.95%);
+  }
+
+  .social-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: 3.64px;
+    text-transform: uppercase;
+    margin-top: 100px;
+  }
+
+  .uiux-title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: 3.64px;
+    text-transform: uppercase;
+    margin-top: 80px;
+  }
+
+  .img-brand{
+    background: rgba(47, 47, 138, 0.60);
+    backdrop-filter: blur(10px); 
+  }
+
+  .social-icon-footer {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-title{
+  margin-top: 100px;
+}

@@ -36,32 +36,32 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-          <div className="container ">
+          <div className="container">
           <h4 className="clients-header">Clients</h4>
           <Slider {...settings}>
             <div>
-             <img src={vodafone} alt="vodafone" width={150} className="mt-5"/>
+             <img src={vodafone} alt="vodafone" width={150} className="mt-4 img-fluid"/>
             </div>
             <div>
-            <img src={tumo} alt="tumo" width={150} className="mt-4"/>
+            <img src={tumo} alt="tumo" width={150} className="mt-3 img-fluid"/>
             </div>
             <div>
-            <img src={shokohaus} alt="shokohaus" width={110}/>
+            <img src={shokohaus} alt="shokohaus" width={110} className="img-fluid"/>
             </div>
             <div>
-            <img src={miss} alt="miss" width={130} className="mt-4"/>
+            <img src={miss} alt="miss" width={130} className="mt-4 img-fluid"/>
             </div>
             <div>
-            <img src={orange} alt="orange" width={100}/>
+            <img src={orange} alt="orange" width={100} className="img-fluid"/>
             </div>
             <div>
-            <img src={hc} alt="hc" width={70}/>
+            <img src={hc} alt="hc" width={70} className="img-fluid"/>
             </div>
             <div>
-            <img src={funfood} alt="funfood" width={100}/>
+            <img src={funfood} alt="funfood" width={100} className="img-fluid"/>
             </div>
             <div>
-            <img src={b52} alt="b52" width={110}/>
+            <img src={b52} alt="b52" width={110} className="img-fluid"/>
             </div>
           </Slider>
         </div>
