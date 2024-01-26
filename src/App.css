@@ -77,8 +77,8 @@
     gap: 14px;
 }
 
-.robot-animation{
-  width: 400px;
+.toggler-style{
+  color: white;
 }
 
 .clients-header{
@@ -86,7 +86,6 @@
 }
 
 .about-text{
-  width: 695px;
   line-height: 170%;
   margin-top: 100px;
 }
@@ -105,7 +104,7 @@
 }
 
   .skills-icons{
-    gap: 50px;
+    gap: 25px;
     margin-top: 50px;
     margin-bottom: 25px;
     justify-content: center;
@@ -178,7 +177,8 @@
     display: flex;
     gap: 14px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 .footer-title{

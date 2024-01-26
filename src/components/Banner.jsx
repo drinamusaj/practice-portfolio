@@ -32,7 +32,7 @@ const Banner = () => {
                     <h1>Judges a book by its cover</h1>
                 </div>
                 <div className="col-xs-12 col-md-6 col-xl-5">
-                    <Lottie animationData={animationData} className="robot-animation" />
+                    <Lottie animationData={animationData} />
                 </div>
             </div>
         </div>
