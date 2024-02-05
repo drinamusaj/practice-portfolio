@@ -45,8 +45,8 @@ const Navbar = () =>{
         </li>
       </ul>
       <div className="social-icon">
-        <a href="#"><img src={linkedin} alt="linkedin" /></a>
-        <a href="#"><img src={behance} alt="behance" /></a>
+        <a href="https://www.linkedin.com/in/enes-bakiu/"><img src={linkedin} alt="linkedin" /></a>
+        <a href="https://www.behance.net/enesbakiu/moodboards"><img src={behance} alt="behance" /></a>
         <a href="#"><img src={mail} alt="mail" /></a>
       </div>
      
