@@ -6,7 +6,7 @@ import xd from '../assets/images/xd.png';
 
 const About = () => {
     return (
-        <div id='about'className="container text-center">
+        <div id='about'className="container text-center pt-5">
            
             <h6 className="about-text mx-auto ">
                 <span style={{ fontSize: 28, fontWeight: 800 }}>Hi,</span> my name is Enes Bakiu. I’m an experienced graphic designer specializing in 
@@ -24,7 +24,7 @@ const About = () => {
                 <img src={xd} alt='xd' width={32} />
                 <img src={figma} alt='figma' width={30} />
             </div>
-            <button className="connect-button mt-3 mb-5">Let's connect</button>
+            <button className="connect-button mt-3 mb-5" onClick={() => window.scrollTo({ top: 3000, behavior: "smooth" })}>Let's connect</button>
         </div>
     );
 }

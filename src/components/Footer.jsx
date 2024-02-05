@@ -37,9 +37,9 @@ const Footer = () =>{
             <h1 className='footer-title'>Get in Touch</h1>
             <p>And let's work together </p>
 
-            <div className='contact-form'>
+            <div className='mt-4'>
                 <form onSubmit={onSubmit}>
-                    <input
+                    <input 
                         type='text'
                         name='first_name'
                         placeholder='First Name'
@@ -53,21 +53,25 @@ const Footer = () =>{
                         value={toSend.last_name}
                         onChange={handleChange}
                     />
-                    <input
-                        type='text'
-                        name='message'
-                        placeholder='Message'
-                        value={toSend.message}
-                        onChange={handleChange}
-                    />
-                    <input
+                    <br/>
+                    <input className='email-box'
                         type='text'
                         name='reply_to'
                         placeholder='Your Email'
                         value={toSend.reply_to}
                         onChange={handleChange}
                     />
-                    <button type='submit'>Submit</button>
+                    <br/>
+                        <input className='message-box'
+                        type='text'
+                        name='message'
+                        placeholder='Message'
+                        value={toSend.message}
+                        onChange={handleChange}
+                    />
+                    
+                    <br />
+                    <button className='connect-button' type='submit'>Submit</button>
                     
                 </form>                
             </div>
