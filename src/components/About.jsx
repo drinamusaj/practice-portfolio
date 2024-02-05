@@ -6,7 +6,7 @@ import xd from '../assets/images/xd.png';
 
 const About = () => {
     return (
-        <div className="container text-center">
+        <div id='about'className="container text-center">
            
             <h6 className="about-text mx-auto ">
                 <span style={{ fontSize: 28, fontWeight: 800 }}>Hi,</span> my name is Enes Bakiu. I’m an experienced graphic designer specializing in 

@@ -4,13 +4,12 @@ import uiux from '../assets/images/uiiux.png'
 
 const Works = () => {
     return (
-        <div className="container mt-5">
+        <div id='projects' className="container mt-5">
             <h4>Selected Works</h4>
 
-            {/* Branding Section */}
             <div className="row work-container">
                 <div className="col-md-6">
-                    <img src={branding} alt='branding' className='img-fluid rounded img-brand' />
+                <img src={branding} alt='branding' className='img-fluid rounded img-brand' />
                 </div>
                 <div className="col-md-6">
                     <h5 className='branding-title'>Branding</h5>
@@ -24,7 +23,6 @@ const Works = () => {
                 </div>
             </div>
 
-            {/* Social Media Section */}
             <div className="row work-container">
                 <div className="col-md-6 order-md-2">
                     <img src={social} alt='social' className='img-fluid rounded' />
@@ -39,13 +37,12 @@ const Works = () => {
                 </div>
             </div>
 
-            {/* UI/UX Section */}
             <div className="row work-container">
                 <div className="col-md-6">
                     <img src={uiux} alt='uiux' className='img-fluid rounded' />
                 </div>
                 <div className="col-md-6">
-                    <h5 className='uiux-title'>Ui&Ux</h5>
+                    <h5 className='uiux-title'>Ui & Ux</h5>
                     <p>In my portfolio, you'll discover my gaming UI/UX menu concept.
                         This project highlights my dedication to creating immersive and user-friendly
                         interfaces for gamers. From sleek navigation to engaging visuals,

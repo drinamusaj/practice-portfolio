@@ -21,22 +21,28 @@ const Banner = () => {
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 1000,}
+        autoplaySpeed: 1000,
+        arrows: false}
 
     return (
         <>
-        <div className="container mb-5">
+        <div id='home' className="container mb-5">
             <div className="row">
                 <div className="col-xs-12 col-md-6 col-xl-7 my-auto">
                     <h3>A designer who</h3>
                     <h1>Judges a book by its cover</h1>
                 </div>
                 <div className="col-xs-12 col-md-6 col-xl-5">
-                    <Lottie animationData={animationData} />
+                    <Lottie animationData={animationData} className="animation-figure" />
+                </div>
+            </div>
+            <div className='scroll-container d-flex justify-content-center'>
+                <div className='scroll' onClick={() => window.scrollTo({ top: 700, behavior: "smooth" })}>
+                    
                 </div>
             </div>
         </div>
-          <div className="container">
+          <div id='clients'className="container">
           <h4 className="clients-header">Clients</h4>
           <Slider {...settings}>
             <div>

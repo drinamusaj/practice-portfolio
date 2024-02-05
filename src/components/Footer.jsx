@@ -4,7 +4,7 @@ import mail from '../assets/images/mail.png'
 
 const Footer = () =>{
     return(
-        <div className="container text-center">
+        <div id='contact' className="container text-center">
             <h1 className='footer-title'>Get in Touch</h1>
             <p>And let's work together </p>
             <div className="social-icon-footer">
