@@ -21,7 +21,7 @@ const Banner = () => {
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 500,
         arrows: false}
 
     return (

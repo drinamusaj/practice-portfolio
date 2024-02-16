@@ -237,6 +237,19 @@
     backdrop-filter: blur(10px); 
   }
 
+  .modal-content{
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    opacity: 0.3;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-container{
+    width: 80%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the container */
+  }
+
   .social-icon-footer {
     display: flex;
     gap: 14px;

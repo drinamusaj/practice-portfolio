@@ -1,25 +1,27 @@
+import { useState } from 'react'
 import branding from '../assets/images/branding.png'
 import social from '../assets/images/social.png'
 import uiux from '../assets/images/uiiux.png'
 
-const Works = () => {
-    return (
-        <div id='projects' className="container mt-5">
-            <h4>Selected Works</h4>
+const Works = ({ setShowModal }) => {
+  return (
+    <div id='projects' className="container mt-5">
+      <h4>Selected Works</h4>
 
-            <div className="row work-container">
-                <div className="col-md-6">
-                <img src={branding} alt='branding' className='img-fluid rounded img-brand' />
-                </div>
-                <div className="col-md-6">
-                    <h5 className='branding-title'>Branding</h5>
-                    <p>I've designed a brand identity that blends the city's cultural heritage with
-                        the restaurant's unique culinary experience. From a vibrant logo
-                        inspired by the Dadaist movement to enticing menus that capture the restaurant's
-                        inviting atmosphere, this project showcases my ability to create a compelling
-                        brand presence for an exceptional dining establishment in Tirana.
-                    </p>
-                    <button className='more-button'>View More</button>
+      <div className="row work-container">
+        <div className="col-md-6">
+          <img src={branding} alt='branding' className='img-fluid rounded img-brand' />
+        </div>
+        <div className="col-md-6">
+          <h5 className='branding-title'>Branding</h5>
+          <p>I've designed a brand identity that blends the city's cultural heritage with
+            the restaurant's unique culinary experience. From a vibrant logo
+            inspired by the Dadaist movement to enticing menus that capture the restaurant's
+            inviting atmosphere, this project showcases my ability to create a compelling
+            brand presence for an exceptional dining establishment in Tirana.
+          </p>
+          <button onClick={() => setShowModal(true)} className='more-button'>View More</button>
+                
                 </div>
             </div>
 
