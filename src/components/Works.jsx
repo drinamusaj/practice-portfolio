@@ -35,7 +35,7 @@ const Works = ({ setShowModal }) => {
                         engage and inspire customers. They represent my ability to create
                         captivating content that boosts brand awareness and connects with tech enthusiasts.
                     </p>
-                    <button className='more-button'>View More</button>
+                    <button onClick={() => setShowModal(true)} className='more-button'>View More</button>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@ const Works = ({ setShowModal }) => {
                         I've designed every element with player enjoyment in mind, emphasizing
                         my commitment to enhancing the gaming experience.
                     </p>
-                    <button className='more-button'>View More</button>
+                    <button onClick={() => setShowModal(true)} className='more-button'>View More</button>
                 </div>
             </div>
         </div>
